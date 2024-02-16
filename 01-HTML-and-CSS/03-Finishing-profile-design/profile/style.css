@@ -1,0 +1,99 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* Global settings */
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff7f1a9;
+  border-radius: 15px;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  padding: 15px;
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Protest Revolution", sans-serif;
+}
+
+button {
+  padding: 10px;
+  background-color: #fff7f1a9;
+  border: none;
+  border-radius: 10px;
+  width: 7rem;
+  height: 40px;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  cursor:pointer
+}
+button:hover{
+  opacity: 0.7;
+}
+
+a:visited {
+  color: black;
+}
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+/* Logic of the code */
+
+body {
+  background-color: #adbc9f;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+  /* position: fixed; */
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 15px;
+  height: 200px;
+
+
+}
+.content p {
+  font-family: "Honk", system-ui;
+
+
+}
+#left-controls-span {
+  transform: translateX(5px);
+}
+
+@media (max-width: 930px) {
+  .content{
+    padding-bottom: 50px;
+  }
+
+}
+
+/* Hidden img */

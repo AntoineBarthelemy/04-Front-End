@@ -1,0 +1,47 @@
+/* Your card CSS file */
+
+.card-category {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)) , url(../../resources/img/breakfast.jpg)
+    no-repeat center / cover;
+  display: flex;
+  height: 200px;
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+ .card-product{
+  height: 150px;
+  display: flex;
+  width: 50%;
+  align-items: center;
+
+}
+.card-product-content h4, p {
+  margin-bottom: 0;
+
+}
+.card-product-content p {
+  margin-top: 8px;
+}
+.card-trip-global{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+}
+.card-product-content{
+  margin-left: 25px;
+}
+.card-trip{
+    width: 50%;
+
+
+}
+.card-trip-content h4, p{
+  margin-bottom: 0;
+
+}
+.card-trip-content p {
+  margin-top: 0;
+}

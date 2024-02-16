@@ -1,0 +1,50 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+/* Global settings */
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Protest Revolution", sans-serif;
+}
+
+button {
+  padding: 10px;
+  background-color: #b4d5ff8b;
+  border: none;
+  border-radius: 10px;
+  width: 7rem;
+  height: 40px;
+}
+
+/* Logic of the code */
+
+body {
+  background-color: #adbc9f;
+  text-align: center;
+  overflow: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+}
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+.content p {
+  text-align: justify;
+  font-family: "Honk", system-ui;
+  font-size: 18px;
+}
+#left-controls {
+  transform: translateX(5px);
+}

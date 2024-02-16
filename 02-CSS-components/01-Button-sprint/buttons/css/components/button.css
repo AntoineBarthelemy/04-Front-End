@@ -1,0 +1,38 @@
+/* Your button CSS file */
+
+:root{
+  --color_gray_first_button: #eaeaeaff;
+  --color_white_second_button:
+  white;
+  --color_green_second_button:
+  #6ad58b;
+  --color_dark_third_button:
+  #000000;
+}
+
+
+.btn-medium {
+  color: var(--color_gray_first_button);
+  border: 2px solid var(--color_gray_first_button);
+  border-radius: 25px;
+  padding: 15px;
+
+}
+
+.btn-treehouse {
+  color: var(--color_white_second_button);
+  background-color: var(--color_green_second_button);
+  padding: 15px;
+  border-radius: 5px;
+
+
+}
+.btn-yours{
+  display: inline-block;
+  color: var(--color_dark_third_button);
+  background-color: #33333381;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90px;
+
+}

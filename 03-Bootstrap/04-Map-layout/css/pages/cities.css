@@ -1,0 +1,22 @@
+/* TODO: design your flexbox layout with a sticky map */
+.cards-container {
+  display: flex;
+
+}
+
+.cards{
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-gap: 16px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+
+/* We just give you a Gmaps with random width/height */
+#map {
+  position: sticky;
+  height: 100vh;
+  top: 0;
+
+}
